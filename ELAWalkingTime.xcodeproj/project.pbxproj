@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079753A518BCB3CC002693EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079753A418BCB3CC002693EF /* Foundation.framework */; };
+		079753A718BCB3CC002693EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079753A618BCB3CC002693EF /* CoreGraphics.framework */; };
+		079753A918BCB3CC002693EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079753A818BCB3CC002693EF /* UIKit.framework */; };
+		079753AF18BCB3CC002693EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 079753AD18BCB3CC002693EF /* InfoPlist.strings */; };
+		079753B118BCB3CC002693EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 079753B018BCB3CC002693EF /* main.m */; };
+		079753B518BCB3CC002693EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 079753B418BCB3CC002693EF /* AppDelegate.m */; };
+		079753B718BCB3CC002693EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079753B618BCB3CC002693EF /* Images.xcassets */; };
+		079753BE18BCB3CC002693EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079753BD18BCB3CC002693EF /* XCTest.framework */; };
+		079753BF18BCB3CC002693EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079753A418BCB3CC002693EF /* Foundation.framework */; };
+		079753C018BCB3CC002693EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079753A818BCB3CC002693EF /* UIKit.framework */; };
+		079753C818BCB3CD002693EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 079753C618BCB3CD002693EF /* InfoPlist.strings */; };
+		079753CA18BCB3CD002693EF /* ELAWalkingTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 079753C918BCB3CD002693EF /* ELAWalkingTimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079753C118BCB3CD002693EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0797539918BCB3CC002693EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079753A018BCB3CC002693EF;
+			remoteInfo = ELAWalkingTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079753A118BCB3CC002693EF /* ELAWalkingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELAWalkingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079753A418BCB3CC002693EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		079753A618BCB3CC002693EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		079753A818BCB3CC002693EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		079753AC18BCB3CC002693EF /* ELAWalkingTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ELAWalkingTime-Info.plist"; sourceTree = "<group>"; };
+		079753AE18BCB3CC002693EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		079753B018BCB3CC002693EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		079753B218BCB3CC002693EF /* ELAWalkingTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ELAWalkingTime-Prefix.pch"; sourceTree = "<group>"; };
+		079753B318BCB3CC002693EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		079753B418BCB3CC002693EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		079753B618BCB3CC002693EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		079753BC18BCB3CC002693EF /* ELAWalkingTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELAWalkingTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		079753BD18BCB3CC002693EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		079753C518BCB3CD002693EF /* ELAWalkingTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ELAWalkingTimeTests-Info.plist"; sourceTree = "<group>"; };
+		079753C718BCB3CD002693EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		079753C918BCB3CD002693EF /* ELAWalkingTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELAWalkingTimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0797539E18BCB3CC002693EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079753A718BCB3CC002693EF /* CoreGraphics.framework in Frameworks */,
+				079753A918BCB3CC002693EF /* UIKit.framework in Frameworks */,
+				079753A518BCB3CC002693EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079753B918BCB3CC002693EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079753BE18BCB3CC002693EF /* XCTest.framework in Frameworks */,
+				079753C018BCB3CC002693EF /* UIKit.framework in Frameworks */,
+				079753BF18BCB3CC002693EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0797539818BCB3CC002693EF = {
+			isa = PBXGroup;
+			children = (
+				079753AA18BCB3CC002693EF /* ELAWalkingTime */,
+				079753C318BCB3CD002693EF /* ELAWalkingTimeTests */,
+				079753A318BCB3CC002693EF /* Frameworks */,
+				079753A218BCB3CC002693EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		079753A218BCB3CC002693EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079753A118BCB3CC002693EF /* ELAWalkingTime.app */,
+				079753BC18BCB3CC002693EF /* ELAWalkingTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079753A318BCB3CC002693EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079753A418BCB3CC002693EF /* Foundation.framework */,
+				079753A618BCB3CC002693EF /* CoreGraphics.framework */,
+				079753A818BCB3CC002693EF /* UIKit.framework */,
+				079753BD18BCB3CC002693EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		079753AA18BCB3CC002693EF /* ELAWalkingTime */ = {
+			isa = PBXGroup;
+			children = (
+				079753B318BCB3CC002693EF /* AppDelegate.h */,
+				079753B418BCB3CC002693EF /* AppDelegate.m */,
+				079753B618BCB3CC002693EF /* Images.xcassets */,
+				079753AB18BCB3CC002693EF /* Supporting Files */,
+			);
+			path = ELAWalkingTime;
+			sourceTree = "<group>";
+		};
+		079753AB18BCB3CC002693EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				079753AC18BCB3CC002693EF /* ELAWalkingTime-Info.plist */,
+				079753AD18BCB3CC002693EF /* InfoPlist.strings */,
+				079753B018BCB3CC002693EF /* main.m */,
+				079753B218BCB3CC002693EF /* ELAWalkingTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		079753C318BCB3CD002693EF /* ELAWalkingTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				079753C918BCB3CD002693EF /* ELAWalkingTimeTests.m */,
+				079753C418BCB3CD002693EF /* Supporting Files */,
+			);
+			path = ELAWalkingTimeTests;
+			sourceTree = "<group>";
+		};
+		079753C418BCB3CD002693EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				079753C518BCB3CD002693EF /* ELAWalkingTimeTests-Info.plist */,
+				079753C618BCB3CD002693EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079753A018BCB3CC002693EF /* ELAWalkingTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079753CD18BCB3CD002693EF /* Build configuration list for PBXNativeTarget "ELAWalkingTime" */;
+			buildPhases = (
+				0797539D18BCB3CC002693EF /* Sources */,
+				0797539E18BCB3CC002693EF /* Frameworks */,
+				0797539F18BCB3CC002693EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELAWalkingTime;
+			productName = ELAWalkingTime;
+			productReference = 079753A118BCB3CC002693EF /* ELAWalkingTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		079753BB18BCB3CC002693EF /* ELAWalkingTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079753D018BCB3CD002693EF /* Build configuration list for PBXNativeTarget "ELAWalkingTimeTests" */;
+			buildPhases = (
+				079753B818BCB3CC002693EF /* Sources */,
+				079753B918BCB3CC002693EF /* Frameworks */,
+				079753BA18BCB3CC002693EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079753C218BCB3CD002693EF /* PBXTargetDependency */,
+			);
+			name = ELAWalkingTimeTests;
+			productName = ELAWalkingTimeTests;
+			productReference = 079753BC18BCB3CC002693EF /* ELAWalkingTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0797539918BCB3CC002693EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					079753BB18BCB3CC002693EF = {
+						TestTargetID = 079753A018BCB3CC002693EF;
+					};
+				};
+			};
+			buildConfigurationList = 0797539C18BCB3CC002693EF /* Build configuration list for PBXProject "ELAWalkingTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0797539818BCB3CC002693EF;
+			productRefGroup = 079753A218BCB3CC002693EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079753A018BCB3CC002693EF /* ELAWalkingTime */,
+				079753BB18BCB3CC002693EF /* ELAWalkingTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0797539F18BCB3CC002693EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079753AF18BCB3CC002693EF /* InfoPlist.strings in Resources */,
+				079753B718BCB3CC002693EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079753BA18BCB3CC002693EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079753C818BCB3CD002693EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0797539D18BCB3CC002693EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079753B518BCB3CC002693EF /* AppDelegate.m in Sources */,
+				079753B118BCB3CC002693EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079753B818BCB3CC002693EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079753CA18BCB3CD002693EF /* ELAWalkingTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		079753C218BCB3CD002693EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079753A018BCB3CC002693EF /* ELAWalkingTime */;
+			targetProxy = 079753C118BCB3CD002693EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		079753AD18BCB3CC002693EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079753AE18BCB3CC002693EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		079753C618BCB3CD002693EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079753C718BCB3CD002693EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079753CB18BCB3CD002693EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		079753CC18BCB3CD002693EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		079753CE18BCB3CD002693EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELAWalkingTime/ELAWalkingTime-Prefix.pch";
+				INFOPLIST_FILE = "ELAWalkingTime/ELAWalkingTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		079753CF18BCB3CD002693EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELAWalkingTime/ELAWalkingTime-Prefix.pch";
+				INFOPLIST_FILE = "ELAWalkingTime/ELAWalkingTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		079753D118BCB3CD002693EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ELAWalkingTime.app/ELAWalkingTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELAWalkingTime/ELAWalkingTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ELAWalkingTimeTests/ELAWalkingTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		079753D218BCB3CD002693EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ELAWalkingTime.app/ELAWalkingTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELAWalkingTime/ELAWalkingTime-Prefix.pch";
+				INFOPLIST_FILE = "ELAWalkingTimeTests/ELAWalkingTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0797539C18BCB3CC002693EF /* Build configuration list for PBXProject "ELAWalkingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079753CB18BCB3CD002693EF /* Debug */,
+				079753CC18BCB3CD002693EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079753CD18BCB3CD002693EF /* Build configuration list for PBXNativeTarget "ELAWalkingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079753CE18BCB3CD002693EF /* Debug */,
+				079753CF18BCB3CD002693EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		079753D018BCB3CD002693EF /* Build configuration list for PBXNativeTarget "ELAWalkingTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079753D118BCB3CD002693EF /* Debug */,
+				079753D218BCB3CD002693EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0797539918BCB3CC002693EF /* Project object */;
+}
