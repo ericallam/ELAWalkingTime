@@ -1,0 +1,14 @@
+PODS:
+  - ELAWalkingTime (0.1.0)
+
+DEPENDENCIES:
+  - ELAWalkingTime (from `../`)
+
+EXTERNAL SOURCES:
+  ELAWalkingTime:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ELAWalkingTime: b099c9dfd1d55ebe056bfbd8a98ca857637a30ff
+
+COCOAPODS: 0.29.0

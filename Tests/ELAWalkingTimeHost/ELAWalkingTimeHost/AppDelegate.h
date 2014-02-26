@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  ELAWalkingTime
+//  ELAWalkingTimeHost
 //
-//  Created by Eric Allam on 25/02/2014.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Created by Eric Allam on 26/02/2014.
+//  Copyright (c) 2014 Eric Allam. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

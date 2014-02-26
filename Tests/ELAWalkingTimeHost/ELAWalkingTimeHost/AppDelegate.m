@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  ELAWalkingTime
+//  ELAWalkingTimeHost
 //
-//  Created by Eric Allam on 25/02/2014.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Created by Eric Allam on 26/02/2014.
+//  Copyright (c) 2014 Eric Allam. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,6 +15,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = [UIViewController new];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

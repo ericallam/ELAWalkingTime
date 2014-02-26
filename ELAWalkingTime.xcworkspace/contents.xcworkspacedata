@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:ELAWalkingTime"
+      name = "ELAWalkingTime">
+      <FileRef
+         location = "group:ELAWalkingTime.m">
+      </FileRef>
+      <FileRef
+         location = "group:ELAWalkingTime.h">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Tests/ELAWalkingTime Tests.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Tests/Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

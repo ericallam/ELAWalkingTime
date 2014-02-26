@@ -1,0 +1,5 @@
+xcodeproj 'ELAWalkingTime Tests'
+workspace '../ELAWalkingTime'
+inhibit_all_warnings!
+
+pod 'ELAWalkingTime', :path => '../'
